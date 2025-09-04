@@ -50,7 +50,11 @@ st.markdown("""
 .stButton > button:hover {background: var(--clay-brown) !important;}
 .bg-particles {position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: -1;}
 .particle {position: absolute; bottom: -20px; background: rgba(107, 142, 35, 0.3); border-radius: 50%; animation: rise 20s linear infinite;}
-@keyframes rise {0% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(-120vh); opacity: 0; }}
+@keyframes rise {0% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(-120vh); opacity: 0; }} #MainMenu, footer, header {visibility: hidden;}
+#MainMenu, footer, header {visibility: hidden;}
+.stDeployButton {display: none;}
+.stAppDeployButton {display: none;}
+[data-testid="stStatusWidget"] {display: none !important;}  /* Hides "Manage app" */
 </style>
 """, unsafe_allow_html=True)
 
