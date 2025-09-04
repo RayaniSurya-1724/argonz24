@@ -3,3 +3,4 @@ requests
 langchain
 langchain-community
 faiss-cpu
+langchain-google-genai

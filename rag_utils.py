@@ -4,6 +4,9 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain.document_loaders import PyPDFLoader
+
+
 
 GOOGLE_API_KEY = "AIzaSyAdii0tN49b5IF2XrYQ42nSn70nE4av8QA"  # 🔑 Replace with your API key
 
